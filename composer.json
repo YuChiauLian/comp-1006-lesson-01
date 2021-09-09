@@ -1,0 +1,19 @@
+{
+    "name": "comp-1006/lesson-01",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Comp1006\\Lesson01\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yu Chiau, Lian",
+            "email": "yu-chiau.lian@mygeorgian.ca"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "test": "phpunit --coverage-html coverage --whitelist ./src --colors=\"always\" --testdox ./tests"
+    }
+}
